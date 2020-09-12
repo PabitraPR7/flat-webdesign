@@ -1,0 +1,23 @@
+{
+  "name": "demo_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PabitraPR7/flat-webdesign.git"
+  },
+  "author": "Pabitra Roy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PabitraPR7/flat-webdesign/issues"
+  },
+  "homepage": "https://github.com/PabitraPR7/flat-webdesign#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1"
+  }
+}
