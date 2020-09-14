@@ -75,6 +75,7 @@ ul>:last-child{
     background-color: #e8f8f4;
     padding: 20px;
     border-radius: 8px;
+    
 }
 .card-body-customize{
     background-color: transparent!important;
@@ -253,3 +254,24 @@ list-style: none!important;
     color: #fff;
     font-size: 12px;
 }
+
+
+/*---------------------------------------------------------- Media Querry ----------------------------------------------- */
+
+@media screen and (max-width: 991px) and (min-width: 600px), (min-width: 360px) {
+    ul>:first-child{
+        padding-left: 45px!important;
+        margin-top: 15px!important;
+    }
+    ul>:last-child{
+        padding-left: 45px!important;
+        margin-top: 15px!important;
+        margin-bottom: 15px!important;
+    }
+    .card-design{
+        margin-bottom: 25px;
+        
+    }
+    
+    
+  }
