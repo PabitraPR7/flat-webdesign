@@ -258,7 +258,22 @@ list-style: none!important;
 
 /*---------------------------------------------------------- Media Querry ----------------------------------------------- */
 
-@media screen and (max-width: 991px) and (min-width: 600px), (min-width: 360px) {
+@media screen and (max-width: 991px) and (min-width: 600px) {
+    ul>:first-child{
+        padding-left: 45px!important;
+        margin-top: 15px!important;
+    }
+    ul>:last-child{
+        padding-left: 45px!important;
+        margin-top: 15px!important;
+        margin-bottom: 15px!important;
+    }
+    .card-design{
+        margin-bottom: 25px;
+        
+    }
+  }
+  @media screen and (max-width: 599px) and (min-width: 360px) {
     ul>:first-child{
         padding-left: 45px!important;
         margin-top: 15px!important;
